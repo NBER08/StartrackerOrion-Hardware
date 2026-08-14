@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Orion") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/Orion.kicad_sym") (options "") (descr ""))
+  (lib (name "Project_Components") (type "KiCad") (uri "${KIPRJMOD}/libraries/Project_Components.kicad_sym") (options "") (descr "Imported symbol library"))
+)
