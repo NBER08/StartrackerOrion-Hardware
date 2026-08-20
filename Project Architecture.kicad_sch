@@ -35,8 +35,8 @@
 		(uuid "f4789478-c68e-4cee-9edd-5d11b744f94d")
 	)
 	(sheet
-		(at 143.51 60.96)
-		(size 33.655 20.955)
+		(at 167.64 59.69)
+		(size 12.7 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -51,7 +51,7 @@
 		)
 		(uuid "1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8")
 		(property "Sheetname" "Drivers"
-			(at 143.51 60.2484 0)
+			(at 167.64 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -62,7 +62,8 @@
 			)
 		)
 		(property "Sheetfile" "drivers.kicad_sch"
-			(at 143.51 82.4996 0)
+			(at 167.64 85.6746 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73,7 +74,7 @@
 			)
 		)
 		(pin "{A4988}" input
-			(at 177.165 63.5 0)
+			(at 180.34 82.55 0)
 			(uuid "22a0891c-41af-4cd9-b9c2-7c5cee5b2633")
 			(effects
 				(font
@@ -83,7 +84,7 @@
 			)
 		)
 		(pin "{MOTOR1}" input
-			(at 177.165 67.31 0)
+			(at 180.34 66.04 0)
 			(uuid "c201f4ea-ed8d-496c-804d-d16400238a1a")
 			(effects
 				(font
@@ -93,8 +94,48 @@
 			)
 		)
 		(pin "{TMC1}" input
-			(at 177.165 71.12 0)
+			(at 180.34 63.5 0)
 			(uuid "df638a35-4108-43a3-861a-e54b45a71a5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MOTOR2}" input
+			(at 180.34 72.39 0)
+			(uuid "0ca3f13a-0d1b-4200-b0fa-0627d0eeec59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MOTOR3}" input
+			(at 180.34 78.74 0)
+			(uuid "14e91cd8-c8f3-4cd1-86a3-7f160d2f5062")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{TMC2}" input
+			(at 180.34 69.85 0)
+			(uuid "ddce3a67-b993-4462-86cf-c1be947a6f7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{TMC3}" input
+			(at 180.34 76.2 0)
+			(uuid "993864ba-9570-41ec-b7de-cce2aac0bb22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,8 +152,8 @@
 		)
 	)
 	(sheet
-		(at 190.5 90.805)
-		(size 19.05 14.605)
+		(at 226.06 77.47)
+		(size 15.24 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -127,7 +168,7 @@
 		)
 		(uuid "236a6b28-69fd-491e-8932-30aa549da18f")
 		(property "Sheetname" "Power"
-			(at 190.5 90.0934 0)
+			(at 226.06 76.7584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -138,7 +179,8 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 190.5 105.9946 0)
+			(at 226.06 85.6746 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -146,6 +188,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "INA_SCL" input
+			(at 226.06 82.55 180)
+			(uuid "2f25620e-8787-49c7-9e6d-535d83fb4f77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA_SDA" input
+			(at 226.06 80.01 180)
+			(uuid "e44e2e28-f610-490f-97e0-80c3265afcd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -157,8 +219,8 @@
 		)
 	)
 	(sheet
-		(at 190.5 60.96)
-		(size 38.1 20.955)
+		(at 184.15 59.69)
+		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -173,7 +235,7 @@
 		)
 		(uuid "582ab2b9-8009-4dea-9a22-6d88b1b0514a")
 		(property "Sheetname" "MCU"
-			(at 190.5 60.2484 0)
+			(at 184.15 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -184,7 +246,8 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 190.5 82.4996 0)
+			(at 184.15 85.6746 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -203,8 +266,8 @@
 		)
 	)
 	(sheet
-		(at 222.25 100.33)
-		(size 17.78 13.97)
+		(at 226.06 59.69)
+		(size 12.7 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -219,7 +282,7 @@
 		)
 		(uuid "e8cecd96-2ee1-409d-9326-5bbf75b8e536")
 		(property "Sheetname" "Connectors"
-			(at 222.25 99.6184 0)
+			(at 226.06 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -230,7 +293,8 @@
 			)
 		)
 		(property "Sheetfile" "conn.kicad_sch"
-			(at 222.25 114.8846 0)
+			(at 226.06 75.5146 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -238,6 +302,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "IMU_SCL" input
+			(at 226.06 62.865 180)
+			(uuid "b20acd3b-dfea-49da-be0e-68e2117c41ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_SDA" input
+			(at 226.06 65.405 180)
+			(uuid "c3b3d317-6fc1-41b0-b978-14d5fa8c7de8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" input
+			(at 226.06 67.945 180)
+			(uuid "6b5191b3-be47-4a09-9a8f-ac808e5af9ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" input
+			(at 226.06 70.485 180)
+			(uuid "d7848d2c-e0f1-4fe7-9c40-900e88162689")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

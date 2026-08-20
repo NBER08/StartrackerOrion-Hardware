@@ -1,0 +1,86 @@
+{
+  "part_name": "XL6009",
+  "library_name": "Project_Components",
+  "symbol_library_name": "Project_Components",
+  "footprint_library_name": "Project_Components",
+  "project_root": "/home/nber08/Documents/Orion",
+  "source_zip": "/home/nber08/Downloads/XL6009.zip",
+  "imported_at": "2026-08-20T19:53:16",
+  "imported_assets": {
+    "selected_symbol_library": "/home/nber08/Documents/Orion/libraries/Project_Components.kicad_sym",
+    "selected_footprint_library": "/home/nber08/Documents/Orion/libraries/Project_Components.pretty",
+    "symbol_libraries": [
+      "/home/nber08/Documents/Orion/libraries/Project_Components.kicad_sym"
+    ],
+    "source_symbol_libraries": [
+      "XL6009.kicad_sym"
+    ],
+    "merged_symbols": [
+      {
+        "target_symbol_library": "/home/nber08/Documents/Orion/libraries/Project_Components.kicad_sym",
+        "merged_symbol_names": [
+          "XL6009"
+        ],
+        "replaced_existing_symbols": [],
+        "updated": true,
+        "message": "Merged 1 symbol(s)."
+      }
+    ],
+    "footprints": [
+      "/home/nber08/Documents/Orion/libraries/Project_Components.pretty/DPAK170P1435X465-6N.kicad_mod"
+    ],
+    "models_3d": [
+      "/home/nber08/Documents/Orion/libraries/3dmodels/XL6009.step"
+    ],
+    "datasheets": [],
+    "source_zip": "/home/nber08/Documents/Orion/libraries/source_zips/XL6009_XL6009.zip",
+    "metadata": null,
+    "3d_path_fix": {
+      "updated_footprints": [
+        "/home/nber08/Documents/Orion/libraries/Project_Components.pretty/DPAK170P1435X465-6N.kicad_mod"
+      ],
+      "skipped_footprints": [],
+      "available_models": [
+        "XL6009.step"
+      ],
+      "model_matches": [
+        {
+          "footprint": "/home/nber08/Documents/Orion/libraries/Project_Components.pretty/DPAK170P1435X465-6N.kicad_mod",
+          "model": "/home/nber08/Documents/Orion/libraries/3dmodels/XL6009.step",
+          "score": 10
+        }
+      ]
+    },
+    "library_table_update": {
+      "footprint_table_updated": false,
+      "symbol_tables_updated": [],
+      "symbol_tables_skipped": [
+        "/home/nber08/Documents/Orion/libraries/Project_Components.kicad_sym"
+      ]
+    },
+    "symbol_footprint_link": [
+      {
+        "symbol_library": "/home/nber08/Documents/Orion/libraries/Project_Components.kicad_sym",
+        "updated": true,
+        "symbol_name": "XL6009",
+        "default_footprint": "Project_Components:DPAK170P1435X465-6N",
+        "footprint_filters": [
+          "Project_Components:DPAK170P1435X465-6N"
+        ],
+        "ki_fp_filters_value": "Project_Components:DPAK170P1435X465-6N",
+        "filter_mode": "exact",
+        "include_default_in_filters": true,
+        "available_footprints": [
+          "Project_Components:DPAK170P1435X465-6N"
+        ]
+      }
+    ],
+    "backups": [
+      "/home/nber08/Documents/Orion/libraries/backups/2026-08-20_19-53-16/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/Orion/libraries/backups/2026-08-20_19-53-16/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/Orion/libraries/backups/2026-08-20_19-53-16/libraries/Project_Components.pretty/DPAK170P1435X465-6N.kicad_mod",
+      "/home/nber08/Documents/Orion/libraries/backups/2026-08-20_19-53-16/fp-lib-table",
+      "/home/nber08/Documents/Orion/libraries/backups/2026-08-20_19-53-16/sym-lib-table"
+    ]
+  }
+}
