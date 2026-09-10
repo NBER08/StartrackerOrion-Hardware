@@ -1,0 +1,86 @@
+{
+  "part_name": "USB4105GFA",
+  "library_name": "Project_Components",
+  "symbol_library_name": "Project_Components",
+  "footprint_library_name": "Project_Components",
+  "project_root": "/home/nber08/Documents/PCB/Orion",
+  "source_zip": "/home/nber08/Downloads/Kicad/USB4105GFA.zip",
+  "imported_at": "2026-08-31T17:45:57",
+  "imported_assets": {
+    "selected_symbol_library": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym",
+    "selected_footprint_library": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.pretty",
+    "symbol_libraries": [
+      "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym"
+    ],
+    "source_symbol_libraries": [
+      "USB4105GFA.kicad_sym"
+    ],
+    "merged_symbols": [
+      {
+        "target_symbol_library": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym",
+        "merged_symbol_names": [
+          "USB4105GFA"
+        ],
+        "replaced_existing_symbols": [],
+        "updated": true,
+        "message": "Merged 1 symbol(s)."
+      }
+    ],
+    "footprints": [
+      "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.pretty/GCT_USB4105GFA.kicad_mod"
+    ],
+    "models_3d": [
+      "/home/nber08/Documents/PCB/Orion/libraries/3dmodels/USB4105GFA.step"
+    ],
+    "datasheets": [],
+    "source_zip": "/home/nber08/Documents/PCB/Orion/libraries/source_zips/USB4105GFA_USB4105GFA.zip",
+    "metadata": null,
+    "3d_path_fix": {
+      "updated_footprints": [
+        "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.pretty/GCT_USB4105GFA.kicad_mod"
+      ],
+      "skipped_footprints": [],
+      "available_models": [
+        "USB4105GFA.step"
+      ],
+      "model_matches": [
+        {
+          "footprint": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.pretty/GCT_USB4105GFA.kicad_mod",
+          "model": "/home/nber08/Documents/PCB/Orion/libraries/3dmodels/USB4105GFA.step",
+          "score": 73
+        }
+      ]
+    },
+    "library_table_update": {
+      "footprint_table_updated": false,
+      "symbol_tables_updated": [],
+      "symbol_tables_skipped": [
+        "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym"
+      ]
+    },
+    "symbol_footprint_link": [
+      {
+        "symbol_library": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym",
+        "updated": true,
+        "symbol_name": "USB4105GFA",
+        "default_footprint": "Project_Components:GCT_USB4105GFA",
+        "footprint_filters": [
+          "Project_Components:GCT_USB4105GFA"
+        ],
+        "ki_fp_filters_value": "Project_Components:GCT_USB4105GFA",
+        "filter_mode": "exact",
+        "include_default_in_filters": true,
+        "available_footprints": [
+          "Project_Components:GCT_USB4105GFA"
+        ]
+      }
+    ],
+    "backups": [
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_17-45-57/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_17-45-57/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_17-45-57/libraries/Project_Components.pretty/GCT_USB4105GFA.kicad_mod",
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_17-45-57/fp-lib-table",
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_17-45-57/sym-lib-table"
+    ]
+  }
+}

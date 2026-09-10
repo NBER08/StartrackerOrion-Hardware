@@ -1,0 +1,86 @@
+{
+  "part_name": "4040",
+  "library_name": "Project_Components",
+  "symbol_library_name": "Project_Components",
+  "footprint_library_name": "Project_Components",
+  "project_root": "/home/nber08/Documents/PCB/Orion",
+  "source_zip": "/home/nber08/Downloads/Kicad/WE-XHMI_4040.zip",
+  "imported_at": "2026-08-31T19:36:16",
+  "imported_assets": {
+    "selected_symbol_library": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym",
+    "selected_footprint_library": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.pretty",
+    "symbol_libraries": [
+      "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym"
+    ],
+    "source_symbol_libraries": [
+      "WE-XHMI_4040.kicad_sym"
+    ],
+    "merged_symbols": [
+      {
+        "target_symbol_library": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym",
+        "merged_symbol_names": [
+          "WE-XHMI_4040"
+        ],
+        "replaced_existing_symbols": [],
+        "updated": true,
+        "message": "Merged 1 symbol(s)."
+      }
+    ],
+    "footprints": [
+      "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.pretty/WE-XHMI_4040.kicad_mod"
+    ],
+    "models_3d": [
+      "/home/nber08/Documents/PCB/Orion/libraries/3dmodels/WE-XHMI_4040.step"
+    ],
+    "datasheets": [],
+    "source_zip": "/home/nber08/Documents/PCB/Orion/libraries/source_zips/4040_WE-XHMI_4040.zip",
+    "metadata": null,
+    "3d_path_fix": {
+      "updated_footprints": [
+        "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.pretty/WE-XHMI_4040.kicad_mod"
+      ],
+      "skipped_footprints": [],
+      "available_models": [
+        "WE-XHMI_4040.step"
+      ],
+      "model_matches": [
+        {
+          "footprint": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.pretty/WE-XHMI_4040.kicad_mod",
+          "model": "/home/nber08/Documents/PCB/Orion/libraries/3dmodels/WE-XHMI_4040.step",
+          "score": 100
+        }
+      ]
+    },
+    "library_table_update": {
+      "footprint_table_updated": false,
+      "symbol_tables_updated": [],
+      "symbol_tables_skipped": [
+        "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym"
+      ]
+    },
+    "symbol_footprint_link": [
+      {
+        "symbol_library": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym",
+        "updated": true,
+        "symbol_name": "WE-XHMI_4040",
+        "default_footprint": "Project_Components:WE-XHMI_4040",
+        "footprint_filters": [
+          "Project_Components:WE-XHMI_4040"
+        ],
+        "ki_fp_filters_value": "Project_Components:WE-XHMI_4040",
+        "filter_mode": "exact",
+        "include_default_in_filters": true,
+        "available_footprints": [
+          "Project_Components:WE-XHMI_4040"
+        ]
+      }
+    ],
+    "backups": [
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_19-36-16/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_19-36-16/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_19-36-16/libraries/Project_Components.pretty/WE-XHMI_4040.kicad_mod",
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_19-36-16/fp-lib-table",
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_19-36-16/sym-lib-table"
+    ]
+  }
+}
