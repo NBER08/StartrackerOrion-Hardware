@@ -1,0 +1,47 @@
+Id;Designator;Footprint;Quantity;Designation;Sourced;;;
+1;BT1;JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical;1;Battery;;;;Aliexpress
+2;C1, C3, C5;C_1206_3216Metric_Pad1.08x0.95mm_HandSolder;3;100u;;;;Mouser
+3;C2;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;1;22p;;;;Inventory
+4;C4;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;1;22u;;;;Pending
+5;C6, C8, C9, C10, C12, C15, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;18;100n;;;;
+6;C7;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;1;10u;;;;
+7;C11, C14;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;2;1u;;;;
+8;C13;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;1;47u;;;;
+9;C16, C17, C18;CP_Radial_D5.0mm_P2.00mm;3;100u;;;;
+10;C31, C32, C33;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;3;22n;;;;
+11;D1, D2;LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;2;RED;;;;
+12;D3;D_SMA_Handsoldering;1;SS34;;;;
+13;FB1;L_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;LI0603G121R-10;;;;
+14;J1, J6;PinHeader_1x04_P2.54mm_Vertical;2;Conn_01x04_Pin;;;;
+15;J2;GCT_USB4105GFA;1;USB4105GFA;;;;
+16;J3, J4, J5;JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical;3;Conn_01x04_Pin;;;;
+17;L1;WE-XHMI_4040;1;5u6;;;;
+18;L2;L_Changjiang_FXL1365;1;47u;;;;
+19;R1, R3;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;2;120;;;;
+20;R2, R22, R23, R24, R25, R27, R29;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;7;10k;;;;
+21;R4, R34, R35, R36, R37;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;5;47k;;;;
+22;R5;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;100k;;;;
+23;R6, R9;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;2;33k;;;;
+24;R7;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;82k;;;;
+25;R8;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;22k1;;;;
+26;R10;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;21k5;;;;
+27;R11;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;10m;;;;
+28;R12;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;2k8;;;;
+29;R13;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;330;;;;
+30;R14, R15;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;2;5k1;;;;
+31;R16, R17, R18, R19, R20, R21;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;6;1k;;;;
+32;R26, R28, R30, R31, R32, R33;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;6;220m;;;;
+34;SW1;SW_SPST_PTS647_Sx38;1;RST;;;;
+35;SW2;SW_SPST_PTS647_Sx38;1;BOOT;;;;
+36;TP1;TestPoint_Pad_D1.5mm;1;VBUS;;;;
+37;TP2;TestPoint_Pad_D1.5mm;1;3V3;;;;
+38;TP3;TestPoint_Pad_D1.5mm;1;VM;;;;
+39;TP4;TestPoint_Pad_D1.5mm;1;BATT;;;;
+40;TP5;TestPoint_Pad_D1.5mm;1;GND;;;;
+41;U1;ESP32-S3-WROOM-1_novias;1;ESP32-S3-WROOM-1;;;;
+42;U2;SOT-23-6_Handsoldering;1;LMR51420;;;;
+43;U3;IC_TPS2121RUXR;1;TPS2121RUXR;;;;
+44;U4;SOT-23-8;1;INA219BxDCN;;;;
+45;U5;SOT-23-6_Handsoldering;1;SRV05-4;;;;
+46;U6, U7, U8;VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm;3;TMC2209-LA;;;;
+47;VR1;DPAK170P1435X465-6N;1;XL6009;;;;
