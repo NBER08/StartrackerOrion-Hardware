@@ -9,7 +9,7 @@
     <textvar name="COMPANY">Karpat Space Program</textvar>
     <textvar name="DESIGNER">Bertalan Nagy</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">acad616</textvar>
+    <textvar name="GIT_HASH_PCB">f738880</textvar>
     <textvar name="GIT_HASH_SCH">e462fed</textvar>
     <textvar name="GIT_URL">https://github.com/NBER08/StartrackerOrion-Hardware</textvar>
     <textvar name="PROJECT_NAME">Startracker Orion</textvar>
@@ -18,8 +18,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">10-Sep-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-09-10</textvar>
+    <textvar name="RELEASE_DATE">19-Sep-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-09-19</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -197,10 +197,10 @@
   <components>
     <comp ref="C1">
       <value>100u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -247,10 +247,10 @@
     </comp>
     <comp ref="C3">
       <value>100u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -297,10 +297,10 @@
     </comp>
     <comp ref="C5">
       <value>100u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -629,13 +629,13 @@
     </comp>
     <comp ref="SW1">
       <value>RST</value>
-      <footprint>Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA</footprint>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS647_Sx38</footprint>
       <description>Push button switch, generic, two pins</description>
       <fields>
         <field name="Sim.Device"/>
         <field name="TAPE_REEL"/>
         <field name="VOLUME"/>
-        <field name="Footprint">Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS647_Sx38</field>
         <field name="Datasheet"/>
         <field name="Description">Push button switch, generic, two pins</field>
       </fields>
@@ -659,13 +659,13 @@
     </comp>
     <comp ref="SW2">
       <value>BOOT</value>
-      <footprint>Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA</footprint>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS647_Sx38</footprint>
       <description>Push button switch, generic, two pins</description>
       <fields>
         <field name="Sim.Device"/>
         <field name="TAPE_REEL"/>
         <field name="VOLUME"/>
-        <field name="Footprint">Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS647_Sx38</field>
         <field name="Datasheet"/>
         <field name="Description">Push button switch, generic, two pins</field>
       </fields>
@@ -1073,7 +1073,7 @@
       </units>
     </comp>
     <comp ref="R4">
-      <value>7k</value>
+      <value>47k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <description>Resistor, small symbol</description>
       <fields>
@@ -1123,7 +1123,7 @@
       </units>
     </comp>
     <comp ref="R6">
-      <value>5k</value>
+      <value>33k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <description>Resistor, small symbol</description>
       <fields>
@@ -1148,7 +1148,7 @@
       </units>
     </comp>
     <comp ref="R7">
-      <value>12k</value>
+      <value>82k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <description>Resistor, small symbol</description>
       <fields>
@@ -1198,7 +1198,7 @@
       </units>
     </comp>
     <comp ref="R9">
-      <value>5k</value>
+      <value>33k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <description>Resistor, small symbol</description>
       <fields>
