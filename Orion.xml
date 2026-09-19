@@ -9,7 +9,7 @@
     <textvar name="COMPANY">Karpat Space Program</textvar>
     <textvar name="DESIGNER">Bertalan Nagy</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">f738880</textvar>
+    <textvar name="GIT_HASH_PCB">c60d634</textvar>
     <textvar name="GIT_HASH_SCH">e462fed</textvar>
     <textvar name="GIT_URL">https://github.com/NBER08/StartrackerOrion-Hardware</textvar>
     <textvar name="PROJECT_NAME">Startracker Orion</textvar>
@@ -929,6 +929,62 @@
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f/"/>
       <tstamps>efefa228-d59d-4d49-9701-da1cba54137d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C34">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <description>low ESR</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">low ESR</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f/"/>
+      <tstamps>593a41c1-8e81-4b32-883b-62228aa1aca6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C35">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Sim.Device"/>
+        <field name="TAPE_REEL"/>
+        <field name="VOLUME"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sim.Device" value=""/>
+      <property name="TAPE_REEL" value=""/>
+      <property name="VOLUME" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f/"/>
+      <tstamps>c86d40f6-3b6f-4f22-ba96-3030d916dfb6</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -3800,6 +3856,8 @@
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
@@ -3919,6 +3977,8 @@
     </net>
     <net code="43" name="Net-(BT1-+)" class="Default">
       <node ref="BT1" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="IN-_2" pintype="input"/>
     </net>
