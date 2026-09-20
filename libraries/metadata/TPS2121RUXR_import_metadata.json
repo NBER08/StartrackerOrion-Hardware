@@ -1,0 +1,86 @@
+{
+  "part_name": "TPS2121RUXR",
+  "library_name": "Project_Components",
+  "symbol_library_name": "Project_Components",
+  "footprint_library_name": "Project_Components",
+  "project_root": "/home/nber08/Documents/PCB/Orion",
+  "source_zip": "/home/nber08/Downloads/Kicad/TPS2121RUXR.zip",
+  "imported_at": "2026-08-31T18:04:51",
+  "imported_assets": {
+    "selected_symbol_library": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym",
+    "selected_footprint_library": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.pretty",
+    "symbol_libraries": [
+      "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym"
+    ],
+    "source_symbol_libraries": [
+      "TPS2121RUXR.kicad_sym"
+    ],
+    "merged_symbols": [
+      {
+        "target_symbol_library": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym",
+        "merged_symbol_names": [
+          "TPS2121RUXR"
+        ],
+        "replaced_existing_symbols": [],
+        "updated": true,
+        "message": "Merged 1 symbol(s)."
+      }
+    ],
+    "footprints": [
+      "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.pretty/IC_TPS2121RUXR.kicad_mod"
+    ],
+    "models_3d": [
+      "/home/nber08/Documents/PCB/Orion/libraries/3dmodels/TPS2121RUXR.step"
+    ],
+    "datasheets": [],
+    "source_zip": "/home/nber08/Documents/PCB/Orion/libraries/source_zips/TPS2121RUXR_TPS2121RUXR.zip",
+    "metadata": null,
+    "3d_path_fix": {
+      "updated_footprints": [
+        "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.pretty/IC_TPS2121RUXR.kicad_mod"
+      ],
+      "skipped_footprints": [],
+      "available_models": [
+        "TPS2121RUXR.step"
+      ],
+      "model_matches": [
+        {
+          "footprint": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.pretty/IC_TPS2121RUXR.kicad_mod",
+          "model": "/home/nber08/Documents/PCB/Orion/libraries/3dmodels/TPS2121RUXR.step",
+          "score": 73
+        }
+      ]
+    },
+    "library_table_update": {
+      "footprint_table_updated": false,
+      "symbol_tables_updated": [],
+      "symbol_tables_skipped": [
+        "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym"
+      ]
+    },
+    "symbol_footprint_link": [
+      {
+        "symbol_library": "/home/nber08/Documents/PCB/Orion/libraries/Project_Components.kicad_sym",
+        "updated": true,
+        "symbol_name": "TPS2121RUXR",
+        "default_footprint": "Project_Components:IC_TPS2121RUXR",
+        "footprint_filters": [
+          "Project_Components:IC_TPS2121RUXR"
+        ],
+        "ki_fp_filters_value": "Project_Components:IC_TPS2121RUXR",
+        "filter_mode": "exact",
+        "include_default_in_filters": true,
+        "available_footprints": [
+          "Project_Components:IC_TPS2121RUXR"
+        ]
+      }
+    ],
+    "backups": [
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_18-04-51/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_18-04-51/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_18-04-51/libraries/Project_Components.pretty/IC_TPS2121RUXR.kicad_mod",
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_18-04-51/fp-lib-table",
+      "/home/nber08/Documents/PCB/Orion/libraries/backups/2026-08-31_18-04-51/sym-lib-table"
+    ]
+  }
+}

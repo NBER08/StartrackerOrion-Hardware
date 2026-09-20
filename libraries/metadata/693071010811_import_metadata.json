@@ -1,0 +1,76 @@
+{
+  "part_name": "693071010811",
+  "library_name": "Project_Components",
+  "symbol_library_name": "Project_Components",
+  "footprint_library_name": "Project_Components",
+  "project_root": "/home/nber08/Documents/Orion",
+  "source_zip": "/home/nber08/Downloads/693071010811.zip",
+  "imported_at": "2026-08-11T18:37:40",
+  "imported_assets": {
+    "selected_symbol_library": "/home/nber08/Documents/Orion/libraries/Project_Components.kicad_sym",
+    "selected_footprint_library": "/home/nber08/Documents/Orion/libraries/Project_Components.pretty",
+    "symbol_libraries": [
+      "/home/nber08/Documents/Orion/libraries/Project_Components.kicad_sym"
+    ],
+    "source_symbol_libraries": [
+      "693071010811.kicad_sym"
+    ],
+    "merged_symbols": [
+      {
+        "target_symbol_library": "/home/nber08/Documents/Orion/libraries/Project_Components.kicad_sym",
+        "merged_symbol_names": [
+          "693071010811"
+        ],
+        "replaced_existing_symbols": [],
+        "updated": true,
+        "message": "Merged 1 symbol(s)."
+      }
+    ],
+    "footprints": [
+      "/home/nber08/Documents/Orion/libraries/Project_Components.pretty/693071010811.kicad_mod"
+    ],
+    "models_3d": [],
+    "datasheets": [],
+    "source_zip": "/home/nber08/Documents/Orion/libraries/source_zips/693071010811_693071010811.zip",
+    "metadata": null,
+    "3d_path_fix": {
+      "updated_footprints": [],
+      "skipped_footprints": [
+        "/home/nber08/Documents/Orion/libraries/Project_Components.pretty/693071010811.kicad_mod"
+      ],
+      "available_models": [],
+      "model_matches": []
+    },
+    "library_table_update": {
+      "footprint_table_updated": false,
+      "symbol_tables_updated": [],
+      "symbol_tables_skipped": [
+        "/home/nber08/Documents/Orion/libraries/Project_Components.kicad_sym"
+      ]
+    },
+    "symbol_footprint_link": [
+      {
+        "symbol_library": "/home/nber08/Documents/Orion/libraries/Project_Components.kicad_sym",
+        "updated": true,
+        "symbol_name": "693071010811",
+        "default_footprint": "Project_Components:693071010811",
+        "footprint_filters": [
+          "Project_Components:693071010811"
+        ],
+        "ki_fp_filters_value": "Project_Components:693071010811",
+        "filter_mode": "exact",
+        "include_default_in_filters": true,
+        "available_footprints": [
+          "Project_Components:693071010811"
+        ]
+      }
+    ],
+    "backups": [
+      "/home/nber08/Documents/Orion/libraries/backups/2026-08-11_18-37-40/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/Orion/libraries/backups/2026-08-11_18-37-40/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/Orion/libraries/backups/2026-08-11_18-37-40/libraries/Project_Components.pretty/693071010811.kicad_mod",
+      "/home/nber08/Documents/Orion/libraries/backups/2026-08-11_18-37-40/fp-lib-table",
+      "/home/nber08/Documents/Orion/libraries/backups/2026-08-11_18-37-40/sym-lib-table"
+    ]
+  }
+}
