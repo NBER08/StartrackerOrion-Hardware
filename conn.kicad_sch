@@ -2817,6 +2817,12 @@
 		(color 0 0 0 0)
 		(uuid "ae68993d-f54d-44fa-a299-e2d64461c659")
 	)
+	(junction
+		(at 72.39 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e32e7c49-45b4-4ed1-a136-1c8e0d0e16fb")
+	)
 	(no_connect
 		(at 125.73 76.2)
 		(uuid "1ea8fdb1-363b-4b93-a666-3b3bec6f06f9")
@@ -2943,7 +2949,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 54.61) (xy 74.93 54.61)
+			(xy 67.31 54.61) (xy 72.39 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3070,6 +3076,16 @@
 			(type default)
 		)
 		(uuid "56b07bbf-93af-4115-a815-8cdc765b139d")
+	)
+	(wire
+		(pts
+			(xy 72.39 54.61) (xy 74.93 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e90dff-f2b7-4099-bafc-888b1bdbb73c")
 	)
 	(wire
 		(pts
@@ -4682,6 +4698,84 @@
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e8cecd96-2ee1-409d-9326-5bbf75b8e536"
 					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 72.39 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2de6c909-19cf-42c8-87c1-c8d642c36b5d")
+		(property "Reference" "#FLG07"
+			(at 72.39 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 72.39 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 72.39 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f81dbe92-5eda-4139-90c3-3d4fb796b6d6")
+		)
+		(instances
+			(project "Orion"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e8cecd96-2ee1-409d-9326-5bbf75b8e536"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
