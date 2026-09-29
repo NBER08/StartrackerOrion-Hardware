@@ -7203,7 +7203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f199f0a4-c032-4e1a-8dfe-71379becb0a8")
-		(property "Reference" "R18"
+		(property "Reference" "R14"
 			(at 21.59 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7298,7 +7298,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e8cecd96-2ee1-409d-9326-5bbf75b8e536"
-					(reference "R18")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7316,7 +7316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1cbd7f4-4ba3-4c53-99d5-0e67c1c1d79e")
-		(property "Reference" "R19"
+		(property "Reference" "R15"
 			(at 72.39 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7411,7 +7411,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e8cecd96-2ee1-409d-9326-5bbf75b8e536"
-					(reference "R19")
+					(reference "R15")
 					(unit 1)
 				)
 			)

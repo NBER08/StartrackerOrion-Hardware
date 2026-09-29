@@ -5615,7 +5615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "416d11ce-f98e-4863-ba17-16cd523a14fb")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 195.58 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5712,7 +5712,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5810,7 +5810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f657a87-dd5f-4752-9e9f-71c00fdb0d34")
-		(property "Reference" "R17"
+		(property "Reference" "R13"
 			(at 73.66 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5874,7 +5874,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "R17")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6183,7 +6183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55e70be8-54be-4daf-95ac-d41c44bad9ee")
-		(property "Reference" "R11"
+		(property "Reference" "R7"
 			(at 48.26 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6247,7 +6247,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "R11")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6265,7 +6265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5810a88a-7673-418a-948b-66a956e5d68f")
-		(property "Reference" "R16"
+		(property "Reference" "R12"
 			(at 73.66 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6329,7 +6329,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "R16")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6346,7 +6346,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "593a41c1-8e81-4b32-883b-62228aa1aca6")
-		(property "Reference" "C17"
+		(property "Reference" "C34"
 			(at 182.88 141.986 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,7 +6408,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "C17")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -6425,7 +6425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "599dcc96-8c64-4d5c-81c7-c529b5ae92c8")
-		(property "Reference" "R14"
+		(property "Reference" "R10"
 			(at 69.342 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6489,7 +6489,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "R14")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6506,7 +6506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c4a0c5b-69f9-4066-8ce7-e813ced60239")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 232.41 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6570,7 +6570,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7491,7 +7491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a13948bf-e035-4571-bdcf-4d3634c5c326")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 29.21 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7555,7 +7555,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7797,7 +7797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bacf801e-05fe-49ac-8533-f847e69ee4f5")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 48.26 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7861,7 +7861,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "R13")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8120,7 +8120,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c86d40f6-3b6f-4f22-ba96-3030d916dfb6")
-		(property "Reference" "C16"
+		(property "Reference" "C35"
 			(at 184.15 126.492 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8217,7 +8217,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "C16")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -8234,7 +8234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbfc94f9-684c-4849-aaa0-0f463800a6a0")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 29.21 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8298,7 +8298,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8722,7 +8722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e98ced2f-85b5-4493-87d6-a992a2470b72")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 83.82 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8817,7 +8817,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9026,7 +9026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6a142df-2664-43b6-a67b-efbae9ed100d")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 232.41 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9090,7 +9090,7 @@
 		(instances
 			(project "Orion"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
