@@ -351,7 +351,47 @@
   "erc": {
     "erc_exclusions": [
       [
+        "lib_symbol_mismatch|1536700|533400|fbf594a4-50bd-4d39-b578-c0227e1e48d6|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1676400|774700|d5ccff33-a7b1-4cc8-b121-c44e2087d967|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|2057400|711200|4faa6a1e-7738-4706-9406-740d3124eb6d|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|2374900|546100|8cf005a9-0cc5-4f90-b126-37fef18169ff|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|2514600|787400|0d2a36dc-f841-4245-a032-9c7f8008f3d7|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|622300|1016000|4a6c2614-3914-49de-9a8a-e88fad3e6c01|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|698500|558800|2461d203-7e08-47dc-b408-10fc997a7b1b|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|838200|800100|6ff05472-ed3b-4a94-8415-f613d55c149b|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
         "multiple_net_names|1181100|736600|0bec8fab-e3d1-4aa9-956a-88d8aa1965d7|97825467-41b4-4eac-bc69-9204c7a4e8a1|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8",
+        ""
+      ],
+      [
+        "multiple_net_names|1384300|1257300|0bec8fab-e3d1-4aa9-956a-88d8aa1965d7|51dffd78-2d7a-46f1-9549-a9735f9ea548|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8",
+        ""
+      ],
+      [
+        "multiple_net_names|2019300|749300|82aa935e-8f01-4c3f-987e-e1cadad44fb4|27c2de81-be22-41f8-8c86-a6b3d4c39450|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8",
         ""
       ],
       [
@@ -360,6 +400,14 @@
       ],
       [
         "multiple_net_names|546100|1282700|09fb7496-ead1-451f-85fb-40374f3acd82|ea1666c3-dce5-462d-83c5-26a13ab1eaf2|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8",
+        ""
+      ],
+      [
+        "multiple_net_names|546100|1282700|f7d0dd36-f54b-41fe-bf0e-cd2e431d6395|ea1666c3-dce5-462d-83c5-26a13ab1eaf2|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8",
+        ""
+      ],
+      [
+        "multiple_net_names|673100|749300|a9d73161-0f41-4daa-988d-f370ecb387ff|b73f2bb2-1c69-4679-808e-5d7183ab3cdb|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e8cecd96-2ee1-409d-9326-5bbf75b8e536|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e8cecd96-2ee1-409d-9326-5bbf75b8e536|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e8cecd96-2ee1-409d-9326-5bbf75b8e536",
         ""
       ],
       [
@@ -376,6 +424,10 @@
       ],
       [
         "pin_to_pin|965200|711200|f948ddb6-6205-476b-8922-09b0f9ef8dc1|4c33dfa9-e5dd-4469-95bf-8d8459ab5aa3|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1790700|711200|cb03d3da-b9ba-46c4-bd60-35cc96e9931c|00000000-0000-0000-0000-000000000000|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/236a6b28-69fd-491e-8932-30aa549da18f|",
         ""
       ]
     ],
@@ -1139,7 +1191,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "TP1-5,SW1-2,J1-8,VR1,#FLG1-6,H1-4,BT1,#PWR1-85,#PWR107-123,FB1,L1-2,C1-35,C57-58,D1-4,U1-8,U12,U14,U17,R1-38,R42",
+    "used_designators": "R1-39,R42,TP1-5,SW1-2,J1-8,VR1,#FLG1-7,H1-4,BT1,#PWR1-85,#PWR107-123,FB1,L1-2,C1-35,C57-58,U1-8,U12,U14,U17,D1-4",
     "variants": []
   },
   "sheets": [
@@ -1173,11 +1225,11 @@
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "",
+    "ASSEMBLY_NOTES": "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tDO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)\tDO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)\tIF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n\tFILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)\tCONFORMAL COATING IS NOT REQUIRED.\n\n5)\tDOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n\tWHEN VIEWED FROM THE TOP.",
     "BOARD_NAME": "Orion Main",
     "COMPANY": "Karpat Space Program",
     "DESIGNER": "Bertalan Nagy",
-    "FABRICATION_NOTES": "",
+    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY KARPAT SPACE PROGRAM.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t86.055 × 71.933 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.300 mm\n\tMIN. HOLE (NPTH)\t\t0.650 mm\n\tANNULAR RING\t\t\t0.200 mm\n\tCOPPER TO HOLE\t\t0.250 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.100 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
     "GIT_HASH_PCB": "c60d634",
     "GIT_HASH_SCH": "e462fed",
     "GIT_URL": "https://github.com/NBER08/StartrackerOrion-Hardware",
@@ -1187,8 +1239,8 @@
     "RELEASE_BODY_1.0.2": "",
     "RELEASE_BODY_1.1.0": "",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "19-Sep-2026",
-    "RELEASE_DATE_NUM": "2026-09-19",
+    "RELEASE_DATE": "21-Sep-2026",
+    "RELEASE_DATE_NUM": "2026-09-21",
     "RELEASE_TITLE_1.0.0": "",
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
@@ -1235,7 +1287,7 @@
     "SHEET_NAME_7": "Drivers",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "DRAFT"
+    "VARIANT": "CHECKED"
   },
   "tuning_profiles": {
     "meta": {

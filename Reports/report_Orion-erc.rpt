@@ -1,0 +1,90 @@
+ERC report (2026-09-21T16:58:09, Encoding UTF8)
+
+***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library 'TPS2121RUXR'
+    ; warning
+    @(0.8255 mm, 0.8636 mm): Symbol U3 [TPS2121RUXR]
+
+[lib_symbol_mismatch]: Symbol doesn't match copy in library
+    ; warning (excluded)
+    @(0.6985 mm, 0.5588 mm): Symbol C30 [C_Small]
+
+[lib_symbol_mismatch]: Symbol doesn't match copy in library
+    ; warning (excluded)
+    @(0.8382 mm, 0.8001 mm): Symbol C33 [C_Small]
+
+[lib_symbol_mismatch]: Symbol doesn't match copy in library
+    ; warning (excluded)
+    @(1.5367 mm, 0.5334 mm): Symbol C26 [C_Small]
+
+[lib_symbol_mismatch]: Symbol doesn't match copy in library
+    ; warning (excluded)
+    @(1.6764 mm, 0.7747 mm): Symbol C31 [C_Small]
+
+[lib_symbol_mismatch]: Symbol doesn't match copy in library
+    ; warning (excluded)
+    @(2.3749 mm, 0.5461 mm): Symbol C29 [C_Small]
+
+[lib_symbol_mismatch]: Symbol doesn't match copy in library
+    ; warning (excluded)
+    @(2.5146 mm, 0.7874 mm): Symbol C32 [C_Small]
+
+[lib_symbol_mismatch]: Symbol doesn't match copy in library
+    ; warning (excluded)
+    @(0.6223 mm, 1.016 mm): Symbol C14 [C_Small]
+
+[lib_symbol_mismatch]: Symbol doesn't match copy in library
+    ; warning (excluded)
+    @(2.0574 mm, 0.7112 mm): Symbol C10 [C_Small]
+
+***** Sheet /Block Diagram/
+***** Sheet /Project Architecture/
+***** Sheet /Project Architecture/MCU/
+***** Sheet /Project Architecture/Power/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error (excluded)
+    @(1.7907 mm, 0.7112 mm): Symbol U2 Pin 3 [VIN, Power input, Line]
+
+***** Sheet /Project Architecture/Connectors/
+[multiple_net_names]: More than one name given to this bus or net
+    ; warning (excluded)
+    @(0.7747 mm, 0.5969 mm): Symbol #PWR027 Pin 1 [Power input, Line]
+    @(0.6731 mm, 0.7493 mm): Symbol J2 Hidden pin SH2 [SHELL_GND, Power input, Line]
+
+***** Sheet /Project Architecture/Drivers/
+[multiple_net_names]: Both RX3 and TX3 are attached to the same items; RX3 will be used in the netlist
+    ; warning
+    @(2.2352 mm, 1.2954 mm): Global Label 'RX3'
+    @(2.0193 mm, 0.7493 mm): Global Label 'TX3'
+
+[multiple_net_names]: More than one name given to this bus or net
+    ; warning (excluded)
+    @(0.3429 mm, 0.8001 mm): Global Label 'RX1'
+    @(0.5461 mm, 1.2827 mm): Global Label 'TX1'
+
+[multiple_net_names]: More than one name given to this bus or net
+    ; warning (excluded)
+    @(0.5461 mm, 1.3081 mm): Global Label 'RX1'
+    @(0.5461 mm, 1.2827 mm): Global Label 'TX1'
+
+[multiple_net_names]: More than one name given to this bus or net
+    ; warning (excluded)
+    @(1.3843 mm, 1.2827 mm): Global Label 'RX2'
+    @(1.1811 mm, 0.7366 mm): Global Label 'TX2'
+
+[multiple_net_names]: More than one name given to this bus or net
+    ; warning (excluded)
+    @(1.3843 mm, 1.2827 mm): Global Label 'RX2'
+    @(1.3843 mm, 1.2573 mm): Global Label 'TX2'
+
+[multiple_net_names]: More than one name given to this bus or net
+    ; warning (excluded)
+    @(2.0193 mm, 0.7874 mm): Global Label 'RX3'
+    @(2.0193 mm, 0.7493 mm): Global Label 'TX3'
+
+[multiple_net_names]: More than one name given to this bus or net
+    ; warning (excluded)
+    @(2.2352 mm, 1.2954 mm): Global Label 'RX3'
+    @(2.2352 mm, 1.27 mm): Global Label 'TX3'
+
+ ** ERC messages: 2  Errors 0  Warnings 2
