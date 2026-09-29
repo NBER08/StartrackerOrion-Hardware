@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-h_chhex7/Orion.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-k7t8bsu_/Orion.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1")
 		(textvar
@@ -15,7 +15,7 @@
 		(textvar
 			(name "FABRICATION_NOTES") "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	FABRICATE PER IPC-6012A CLASS 2.\n\n2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n	\"Edge_Cuts.GBR\" SUFFIX.\n\n	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n	DRAWING FOR REFERENCE ONLY.\n\n3)	SEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n	FOR HOLE LOCATIONS.\n\n	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n	FOR REFERENCE ONLY.\n\n4)	SURFACE FINISH: IMMERSION GOLD\n\n5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n	BE LPI, COLOR BLACK.\n\n6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER \n	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n	SOLDERMASK OPENED IN GERBER.\n\n8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n	AND Pb FREE FOR MANUFACTURING\n\n9)	PCB MATERIAL REQUIREMENTS:\n\n	A.	FLAMMABILITY RATING MUST MEET OR EXCEED \n		UL94V-0 REQUIREMENTS.\n	B.	Tg 170 C OR EQUIVALENT.\n	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n		HALOGEN FREE AND APPROVED BY KARPAT SPACE PROGRAM.\n\n10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n	BOARD SIZE				86.055 × 71.933 mm\n	BOARD THICKNESS		1.660 mm\n	TRACE WIDTH			0.200 mm\n	TRACE TO TRACE		0.200 mm\n	MIN. HOLE (PTH)			0.300 mm\n	MIN. HOLE (NPTH)		0.650 mm\n	ANNULAR RING			0.200 mm\n	COPPER TO HOLE		0.250 mm\n	COPPER TO EDGE		0.250 mm\n	HOLE TO HOLE			0.100 mm\n\n11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)	CONFIRM SPACE WIDTHS AND SPACINGS.")
 		(textvar
-			(name "GIT_HASH_PCB") "c60d634")
+			(name "GIT_HASH_PCB") "a594307")
 		(textvar
 			(name "GIT_HASH_SCH") "e462fed")
 		(textvar
@@ -37,9 +37,9 @@
 		(textvar
 			(name "RELEASE_BODY_UNRELEASED") "Version Unreleased not found.")
 		(textvar
-			(name "RELEASE_DATE") "21-Sep-2026")
+			(name "RELEASE_DATE") "29-Sep-2026")
 		(textvar
-			(name "RELEASE_DATE_NUM") "2026-09-21")
+			(name "RELEASE_DATE_NUM") "2026-09-29")
 		(textvar
 			(name "RELEASE_TITLE_1.0.0")
 		)
@@ -2984,7 +2984,7 @@
 		(comp
 			(ref "R11")
 			(value "10m")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
 			(description "Resistor")
 			(fields
 				(field
@@ -2997,7 +2997,7 @@
 					(name "VOLUME")
 				)
 				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -3768,7 +3768,7 @@
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/e8cecd96-2ee1-409d-9326-5bbf75b8e536/")
 			)
-			(tstamps "84289fde-1221-4804-963c-6a7bfb1ecad6")
+			(tstamps "ada123e1-dc0a-4bf7-9d20-8a0a1b3a68eb")
 			(units
 				(unit
 					(name "A")
@@ -3822,7 +3822,7 @@
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/e8cecd96-2ee1-409d-9326-5bbf75b8e536/")
 			)
-			(tstamps "ada123e1-dc0a-4bf7-9d20-8a0a1b3a68eb")
+			(tstamps "84289fde-1221-4804-963c-6a7bfb1ecad6")
 			(units
 				(unit
 					(name "A")
@@ -5087,7 +5087,7 @@
 				(names "/Project Architecture/Drivers/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8/")
 			)
-			(tstamps "4b972a7e-154a-4f47-8bd3-a587f8eed347")
+			(tstamps "8a62764a-2bbd-4706-b53f-a2ea9cd2db40")
 			(units
 				(unit
 					(name "A")
@@ -5249,7 +5249,7 @@
 				(names "/Project Architecture/Drivers/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8/")
 			)
-			(tstamps "8a62764a-2bbd-4706-b53f-a2ea9cd2db40")
+			(tstamps "4b972a7e-154a-4f47-8bd3-a587f8eed347")
 			(units
 				(unit
 					(name "A")
@@ -6011,7 +6011,7 @@
 				(names "/Project Architecture/Drivers/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8/")
 			)
-			(tstamps "4233dad7-225c-4feb-9b65-780a3a1bd792")
+			(tstamps "1f229e03-a873-4fc5-a5f0-b3c6cda6fed8")
 			(units
 				(unit
 					(name "A")
@@ -6065,7 +6065,7 @@
 				(names "/Project Architecture/Drivers/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8/")
 			)
-			(tstamps "4d46b084-95a0-494a-89e2-0693c317cb89")
+			(tstamps "f484b258-02f1-4cfb-beef-f4f8cb4850aa")
 			(units
 				(unit
 					(name "A")
@@ -6353,11 +6353,11 @@
 		(comp
 			(ref "R26")
 			(value "220m")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
 			(description "Resistor, small symbol")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -6461,11 +6461,11 @@
 		(comp
 			(ref "R28")
 			(value "220m")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
 			(description "Resistor, small symbol")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -6569,11 +6569,11 @@
 		(comp
 			(ref "R30")
 			(value "220m")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
 			(description "Resistor, small symbol")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -6623,11 +6623,11 @@
 		(comp
 			(ref "R31")
 			(value "220m")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
 			(description "Resistor, small symbol")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -6677,11 +6677,11 @@
 		(comp
 			(ref "R32")
 			(value "220m")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
 			(description "Resistor, small symbol")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -6731,11 +6731,11 @@
 		(comp
 			(ref "R33")
 			(value "220m")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
 			(description "Resistor, small symbol")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -9062,8 +9062,8 @@
 			(class "Default")
 			(node
 				(ref "U1")
-				(pin "7")
-				(pinfunction "IO7_7")
+				(pin "6")
+				(pinfunction "IO6_6")
 				(pintype "bidirectional")
 			)
 			(node
@@ -10319,22 +10319,6 @@
 		)
 		(net
 			(code "67")
-			(name "Net-(U6-~{PD}{slash}UART)")
-			(class "Default")
-			(node
-				(ref "R19")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U6")
-				(pin "14")
-				(pinfunction "~{PD}/UART_14")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "68")
 			(name "Net-(U7-BRA)")
 			(class "Default")
 			(node
@@ -10350,7 +10334,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "68")
 			(name "Net-(U7-BRB)")
 			(class "Default")
 			(node
@@ -10366,7 +10350,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "69")
 			(name "Net-(U7-CPI)")
 			(class "Default")
 			(node
@@ -10382,7 +10366,7 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "70")
 			(name "Net-(U7-CPO)")
 			(class "Default")
 			(node
@@ -10398,7 +10382,7 @@
 			)
 		)
 		(net
-			(code "72")
+			(code "71")
 			(name "Net-(U7-DIAG)")
 			(class "Default")
 			(node
@@ -10414,7 +10398,7 @@
 			)
 		)
 		(net
-			(code "73")
+			(code "72")
 			(name "Net-(U7-STEP)")
 			(class "Default")
 			(node
@@ -10430,7 +10414,7 @@
 			)
 		)
 		(net
-			(code "74")
+			(code "73")
 			(name "Net-(U7-VCP)")
 			(class "Default")
 			(node
@@ -10446,7 +10430,7 @@
 			)
 		)
 		(net
-			(code "75")
+			(code "74")
 			(name "Net-(U7-~{EN})")
 			(class "Default")
 			(node
@@ -10462,23 +10446,7 @@
 			)
 		)
 		(net
-			(code "76")
-			(name "Net-(U7-~{PD}{slash}UART)")
-			(class "Default")
-			(node
-				(ref "R20")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U7")
-				(pin "14")
-				(pinfunction "~{PD}/UART_14")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "77")
+			(code "75")
 			(name "Net-(U8-BRA)")
 			(class "Default")
 			(node
@@ -10494,7 +10462,7 @@
 			)
 		)
 		(net
-			(code "78")
+			(code "76")
 			(name "Net-(U8-BRB)")
 			(class "Default")
 			(node
@@ -10510,7 +10478,7 @@
 			)
 		)
 		(net
-			(code "79")
+			(code "77")
 			(name "Net-(U8-CPI)")
 			(class "Default")
 			(node
@@ -10526,7 +10494,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "78")
 			(name "Net-(U8-CPO)")
 			(class "Default")
 			(node
@@ -10542,7 +10510,7 @@
 			)
 		)
 		(net
-			(code "81")
+			(code "79")
 			(name "Net-(U8-DIAG)")
 			(class "Default")
 			(node
@@ -10558,7 +10526,7 @@
 			)
 		)
 		(net
-			(code "82")
+			(code "80")
 			(name "Net-(U8-STEP)")
 			(class "Default")
 			(node
@@ -10574,7 +10542,7 @@
 			)
 		)
 		(net
-			(code "83")
+			(code "81")
 			(name "Net-(U8-VCP)")
 			(class "Default")
 			(node
@@ -10590,7 +10558,7 @@
 			)
 		)
 		(net
-			(code "84")
+			(code "82")
 			(name "Net-(U8-~{EN})")
 			(class "Default")
 			(node
@@ -10606,23 +10574,7 @@
 			)
 		)
 		(net
-			(code "85")
-			(name "Net-(U8-~{PD}{slash}UART)")
-			(class "Default")
-			(node
-				(ref "R21")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U8")
-				(pin "14")
-				(pinfunction "~{PD}/UART_14")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "86")
+			(code "83")
 			(name "Net-(VR1-FB)")
 			(class "Default")
 			(node
@@ -10643,7 +10595,7 @@
 			)
 		)
 		(net
-			(code "87")
+			(code "84")
 			(name "POWER_STATE")
 			(class "Default")
 			(node
@@ -10660,7 +10612,7 @@
 			)
 		)
 		(net
-			(code "88")
+			(code "85")
 			(name "RX1")
 			(class "Default")
 			(node
@@ -10670,19 +10622,19 @@
 			)
 			(node
 				(ref "U1")
-				(pin "4")
-				(pinfunction "IO4_4")
-				(pintype "bidirectional")
-			)
-			(node
-				(ref "U1")
 				(pin "5")
 				(pinfunction "IO5_5")
 				(pintype "bidirectional")
 			)
+			(node
+				(ref "U8")
+				(pin "14")
+				(pinfunction "~{PD}/UART_14")
+				(pintype "bidirectional")
+			)
 		)
 		(net
-			(code "89")
+			(code "86")
 			(name "RX2")
 			(class "Default")
 			(node
@@ -10692,19 +10644,19 @@
 			)
 			(node
 				(ref "U1")
-				(pin "8")
-				(pinfunction "IO15_8")
-				(pintype "bidirectional")
-			)
-			(node
-				(ref "U1")
 				(pin "9")
 				(pinfunction "IO16_9")
 				(pintype "bidirectional")
 			)
+			(node
+				(ref "U6")
+				(pin "14")
+				(pinfunction "~{PD}/UART_14")
+				(pintype "bidirectional")
+			)
 		)
 		(net
-			(code "90")
+			(code "87")
 			(name "RX3")
 			(class "Default")
 			(node
@@ -10719,14 +10671,14 @@
 				(pintype "bidirectional")
 			)
 			(node
-				(ref "U1")
-				(pin "15")
-				(pinfunction "IO3_15")
+				(ref "U7")
+				(pin "14")
+				(pinfunction "~{PD}/UART_14")
 				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "91")
+			(code "88")
 			(name "STEP1")
 			(class "Default")
 			(node
@@ -10736,13 +10688,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "6")
-				(pinfunction "IO6_6")
+				(pin "7")
+				(pinfunction "IO7_7")
 				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "92")
+			(code "89")
 			(name "STEP2")
 			(class "Default")
 			(node
@@ -10758,7 +10710,7 @@
 			)
 		)
 		(net
-			(code "93")
+			(code "90")
 			(name "STEP3")
 			(class "Default")
 			(node
@@ -10770,6 +10722,54 @@
 				(ref "U1")
 				(pin "17")
 				(pinfunction "IO9_17")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "91")
+			(name "TX1")
+			(class "Default")
+			(node
+				(ref "R21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "IO4_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "92")
+			(name "TX2")
+			(class "Default")
+			(node
+				(ref "R19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "IO15_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "93")
+			(name "TX3")
+			(class "Default")
+			(node
+				(ref "R20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "IO3_15")
 				(pintype "bidirectional")
 			)
 		)
