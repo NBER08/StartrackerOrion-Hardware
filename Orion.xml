@@ -36,13 +36,13 @@
 	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING 
 	FOR REFERENCE ONLY.
 
-4)	SURFACE FINISH: IMMERSION GOLD
+4)	SURFACE FINISH: ENIG
 
 5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL 
-	BE LPI, COLOR BLACK.
+	BE LPI, COLOR GREEN.
 
 6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER 
-	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.
+	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.
 
 7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS 
 	SOLDERMASK OPENED IN GERBER.
@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">a594307</textvar>
+    <textvar name="GIT_HASH_PCB">ab7a79b</textvar>
     <textvar name="GIT_HASH_SCH">e462fed</textvar>
     <textvar name="GIT_URL">https://github.com/NBER08/StartrackerOrion-Hardware</textvar>
     <textvar name="PROJECT_NAME">Startracker Orion</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">29-Sep-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-09-29</textvar>
+    <textvar name="RELEASE_DATE">04-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-04</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
