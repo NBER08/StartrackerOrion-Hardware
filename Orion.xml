@@ -36,13 +36,13 @@
 	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING 
 	FOR REFERENCE ONLY.
 
-4)	SURFACE FINISH: IMMERSION GOLD
+4)	SURFACE FINISH: ENIG
 
 5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL 
-	BE LPI, COLOR BLACK.
+	BE LPI, COLOR GREEN.
 
 6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER 
-	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.
+	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.
 
 7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS 
 	SOLDERMASK OPENED IN GERBER.
@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">c60d634</textvar>
+    <textvar name="GIT_HASH_PCB">800cac8</textvar>
     <textvar name="GIT_HASH_SCH">e462fed</textvar>
     <textvar name="GIT_URL">https://github.com/NBER08/StartrackerOrion-Hardware</textvar>
     <textvar name="PROJECT_NAME">Startracker Orion</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">21-Sep-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-09-21</textvar>
+    <textvar name="RELEASE_DATE">04-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-04</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -1370,13 +1370,13 @@
     </comp>
     <comp ref="R11">
       <value>10m</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <description>Resistor</description>
       <fields>
         <field name="Sim.Device"/>
         <field name="TAPE_REEL"/>
         <field name="VOLUME"/>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
@@ -1695,7 +1695,7 @@
       <property name="ki_keywords" value="mounting hole"/>
       <property name="ki_fp_filters" value="MountingHole*Pad*"/>
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e8cecd96-2ee1-409d-9326-5bbf75b8e536/"/>
-      <tstamps>84289fde-1221-4804-963c-6a7bfb1ecad6</tstamps>
+      <tstamps>ada123e1-dc0a-4bf7-9d20-8a0a1b3a68eb</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1720,7 +1720,7 @@
       <property name="ki_keywords" value="mounting hole"/>
       <property name="ki_fp_filters" value="MountingHole*Pad*"/>
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e8cecd96-2ee1-409d-9326-5bbf75b8e536/"/>
-      <tstamps>ada123e1-dc0a-4bf7-9d20-8a0a1b3a68eb</tstamps>
+      <tstamps>84289fde-1221-4804-963c-6a7bfb1ecad6</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -2280,7 +2280,7 @@
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Drivers/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8/"/>
-      <tstamps>4b972a7e-154a-4f47-8bd3-a587f8eed347</tstamps>
+      <tstamps>8a62764a-2bbd-4706-b53f-a2ea9cd2db40</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -2355,7 +2355,7 @@
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Project Architecture/Drivers/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8/"/>
-      <tstamps>8a62764a-2bbd-4706-b53f-a2ea9cd2db40</tstamps>
+      <tstamps>4b972a7e-154a-4f47-8bd3-a587f8eed347</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -2707,7 +2707,7 @@
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Drivers/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8/"/>
-      <tstamps>4233dad7-225c-4feb-9b65-780a3a1bd792</tstamps>
+      <tstamps>1f229e03-a873-4fc5-a5f0-b3c6cda6fed8</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -2732,7 +2732,7 @@
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Drivers/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/1bbd4b3a-e13b-4dd1-ae9f-f61e8aba85f8/"/>
-      <tstamps>4d46b084-95a0-494a-89e2-0693c317cb89</tstamps>
+      <tstamps>f484b258-02f1-4cfb-beef-f4f8cb4850aa</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -2869,10 +2869,10 @@
     </comp>
     <comp ref="R26">
       <value>220m</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
       <description>Resistor, small symbol</description>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
@@ -2919,10 +2919,10 @@
     </comp>
     <comp ref="R28">
       <value>220m</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
       <description>Resistor, small symbol</description>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
@@ -2969,10 +2969,10 @@
     </comp>
     <comp ref="R30">
       <value>220m</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
       <description>Resistor, small symbol</description>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
@@ -2994,10 +2994,10 @@
     </comp>
     <comp ref="R31">
       <value>220m</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
       <description>Resistor, small symbol</description>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
@@ -3019,10 +3019,10 @@
     </comp>
     <comp ref="R32">
       <value>220m</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
       <description>Resistor, small symbol</description>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
@@ -3044,10 +3044,10 @@
     </comp>
     <comp ref="R33">
       <value>220m</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
       <description>Resistor, small symbol</description>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
@@ -3888,7 +3888,7 @@
       <node ref="U1" pin="39" pinfunction="IO1_39" pintype="bidirectional"/>
     </net>
     <net code="27" name="DIR1" class="Default">
-      <node ref="U1" pin="7" pinfunction="IO7_7" pintype="bidirectional"/>
+      <node ref="U1" pin="6" pinfunction="IO6_6" pintype="bidirectional"/>
       <node ref="U8" pin="19" pinfunction="DIR_19" pintype="input"/>
     </net>
     <net code="28" name="DIR2" class="Default">
@@ -4156,117 +4156,117 @@
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="U6" pin="2" pinfunction="~{EN}_2" pintype="input"/>
     </net>
-    <net code="67" name="Net-(U6-~{PD}/UART)" class="Default">
-      <node ref="R19" pin="1" pintype="passive"/>
-      <node ref="U6" pin="14" pinfunction="~{PD}/UART_14" pintype="bidirectional"/>
-    </net>
-    <net code="68" name="Net-(U7-BRA)" class="Default">
+    <net code="67" name="Net-(U7-BRA)" class="Default">
       <node ref="R28" pin="2" pintype="passive"/>
       <node ref="U7" pin="23" pinfunction="BRA_23" pintype="input"/>
     </net>
-    <net code="69" name="Net-(U7-BRB)" class="Default">
+    <net code="68" name="Net-(U7-BRB)" class="Default">
       <node ref="R32" pin="1" pintype="passive"/>
       <node ref="U7" pin="27" pinfunction="BRB_27" pintype="input"/>
     </net>
-    <net code="70" name="Net-(U7-CPI)" class="Default">
+    <net code="69" name="Net-(U7-CPI)" class="Default">
       <node ref="C32" pin="1" pintype="passive"/>
       <node ref="U7" pin="5" pinfunction="CPI_5" pintype="input"/>
     </net>
-    <net code="71" name="Net-(U7-CPO)" class="Default">
+    <net code="70" name="Net-(U7-CPO)" class="Default">
       <node ref="C32" pin="2" pintype="passive"/>
       <node ref="U7" pin="4" pinfunction="CPO_4" pintype="input"/>
     </net>
-    <net code="72" name="Net-(U7-DIAG)" class="Default">
+    <net code="71" name="Net-(U7-DIAG)" class="Default">
       <node ref="R27" pin="1" pintype="passive"/>
       <node ref="U7" pin="11" pinfunction="DIAG_11" pintype="output"/>
     </net>
-    <net code="73" name="Net-(U7-STEP)" class="Default">
+    <net code="72" name="Net-(U7-STEP)" class="Default">
       <node ref="R17" pin="1" pintype="passive"/>
       <node ref="U7" pin="16" pinfunction="STEP_16" pintype="input"/>
     </net>
-    <net code="74" name="Net-(U7-VCP)" class="Default">
+    <net code="73" name="Net-(U7-VCP)" class="Default">
       <node ref="C29" pin="1" pintype="passive"/>
       <node ref="U7" pin="6" pinfunction="VCP_6" pintype="output"/>
     </net>
-    <net code="75" name="Net-(U7-~{EN})" class="Default">
+    <net code="74" name="Net-(U7-~{EN})" class="Default">
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="U7" pin="2" pinfunction="~{EN}_2" pintype="input"/>
     </net>
-    <net code="76" name="Net-(U7-~{PD}/UART)" class="Default">
-      <node ref="R20" pin="1" pintype="passive"/>
-      <node ref="U7" pin="14" pinfunction="~{PD}/UART_14" pintype="bidirectional"/>
-    </net>
-    <net code="77" name="Net-(U8-BRA)" class="Default">
+    <net code="75" name="Net-(U8-BRA)" class="Default">
       <node ref="R30" pin="2" pintype="passive"/>
       <node ref="U8" pin="23" pinfunction="BRA_23" pintype="input"/>
     </net>
-    <net code="78" name="Net-(U8-BRB)" class="Default">
+    <net code="76" name="Net-(U8-BRB)" class="Default">
       <node ref="R33" pin="1" pintype="passive"/>
       <node ref="U8" pin="27" pinfunction="BRB_27" pintype="input"/>
     </net>
-    <net code="79" name="Net-(U8-CPI)" class="Default">
+    <net code="77" name="Net-(U8-CPI)" class="Default">
       <node ref="C33" pin="1" pintype="passive"/>
       <node ref="U8" pin="5" pinfunction="CPI_5" pintype="input"/>
     </net>
-    <net code="80" name="Net-(U8-CPO)" class="Default">
+    <net code="78" name="Net-(U8-CPO)" class="Default">
       <node ref="C33" pin="2" pintype="passive"/>
       <node ref="U8" pin="4" pinfunction="CPO_4" pintype="input"/>
     </net>
-    <net code="81" name="Net-(U8-DIAG)" class="Default">
+    <net code="79" name="Net-(U8-DIAG)" class="Default">
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="U8" pin="11" pinfunction="DIAG_11" pintype="output"/>
     </net>
-    <net code="82" name="Net-(U8-STEP)" class="Default">
+    <net code="80" name="Net-(U8-STEP)" class="Default">
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="U8" pin="16" pinfunction="STEP_16" pintype="input"/>
     </net>
-    <net code="83" name="Net-(U8-VCP)" class="Default">
+    <net code="81" name="Net-(U8-VCP)" class="Default">
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="U8" pin="6" pinfunction="VCP_6" pintype="output"/>
     </net>
-    <net code="84" name="Net-(U8-~{EN})" class="Default">
+    <net code="82" name="Net-(U8-~{EN})" class="Default">
       <node ref="R24" pin="1" pintype="passive"/>
       <node ref="U8" pin="2" pinfunction="~{EN}_2" pintype="input"/>
     </net>
-    <net code="85" name="Net-(U8-~{PD}/UART)" class="Default">
-      <node ref="R21" pin="1" pintype="passive"/>
-      <node ref="U8" pin="14" pinfunction="~{PD}/UART_14" pintype="bidirectional"/>
-    </net>
-    <net code="86" name="Net-(VR1-FB)" class="Default">
+    <net code="83" name="Net-(VR1-FB)" class="Default">
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="VR1" pin="5" pinfunction="FB_5" pintype="input"/>
     </net>
-    <net code="87" name="POWER_STATE" class="Default">
+    <net code="84" name="POWER_STATE" class="Default">
       <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="ST_9" pintype="output"/>
     </net>
-    <net code="88" name="RX1" class="Default">
+    <net code="85" name="RX1" class="Default">
       <node ref="R21" pin="2" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="IO4_4" pintype="bidirectional"/>
       <node ref="U1" pin="5" pinfunction="IO5_5" pintype="bidirectional"/>
+      <node ref="U8" pin="14" pinfunction="~{PD}/UART_14" pintype="bidirectional"/>
     </net>
-    <net code="89" name="RX2" class="Default">
+    <net code="86" name="RX2" class="Default">
       <node ref="R19" pin="2" pintype="passive"/>
-      <node ref="U1" pin="8" pinfunction="IO15_8" pintype="bidirectional"/>
       <node ref="U1" pin="9" pinfunction="IO16_9" pintype="bidirectional"/>
+      <node ref="U6" pin="14" pinfunction="~{PD}/UART_14" pintype="bidirectional"/>
     </net>
-    <net code="90" name="RX3" class="Default">
+    <net code="87" name="RX3" class="Default">
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="IO8_12" pintype="bidirectional"/>
-      <node ref="U1" pin="15" pinfunction="IO3_15" pintype="bidirectional"/>
+      <node ref="U7" pin="14" pinfunction="~{PD}/UART_14" pintype="bidirectional"/>
     </net>
-    <net code="91" name="STEP1" class="Default">
+    <net code="88" name="STEP1" class="Default">
       <node ref="R18" pin="2" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="IO6_6" pintype="bidirectional"/>
+      <node ref="U1" pin="7" pinfunction="IO7_7" pintype="bidirectional"/>
     </net>
-    <net code="92" name="STEP2" class="Default">
+    <net code="89" name="STEP2" class="Default">
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="IO18_11" pintype="bidirectional"/>
     </net>
-    <net code="93" name="STEP3" class="Default">
+    <net code="90" name="STEP3" class="Default">
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U1" pin="17" pinfunction="IO9_17" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="TX1" class="Default">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IO4_4" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="TX2" class="Default">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="IO15_8" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="TX3" class="Default">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="IO3_15" pintype="bidirectional"/>
     </net>
     <net code="94" name="VB" class="Default">
       <node ref="FB1" pin="1" pintype="passive"/>

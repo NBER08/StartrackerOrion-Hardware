@@ -1,5 +1,5 @@
 ** Drc report for Orion.kicad_pcb **
-** Created on 2026-09-21T16:58:14 **
+** Created on 2026-10-04T15:30:59 **
 
 ** Found 11 DRC violations **
 [silk_edge_clearance]: Silkscreen clipped by board edge
@@ -21,11 +21,11 @@
 [clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
     ; error (excluded)
     @(114.0667 mm, 94.7782 mm): Pad 2 [Net-(BT1-+)] of U4 on L1 (Sig, PWR)
-    @(113.4167 mm, 94.7782 mm): Pad 1 [+BATT] of U4 on L1 (Sig, PWR)
+    @(114.7167 mm, 94.7782 mm): Pad 3 [GND] of U4 on L1 (Sig, PWR)
 [clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
     ; error (excluded)
     @(114.0667 mm, 94.7782 mm): Pad 2 [Net-(BT1-+)] of U4 on L1 (Sig, PWR)
-    @(114.7167 mm, 94.7782 mm): Pad 3 [GND] of U4 on L1 (Sig, PWR)
+    @(113.4167 mm, 94.7782 mm): Pad 1 [+BATT] of U4 on L1 (Sig, PWR)
 [clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
     ; error (excluded)
     @(114.7167 mm, 94.7782 mm): Pad 3 [GND] of U4 on L1 (Sig, PWR)
