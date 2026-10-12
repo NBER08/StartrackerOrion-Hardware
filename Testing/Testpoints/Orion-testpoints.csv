@@ -1,6 +1,6 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
-TP1,VBUS,Default,67.2182,13.7000,top,SMT,VBUS,TestPoint_Pad_D1.5mm
-TP2,+3.3V,Default,49.0572,32.0642,top,SMT,3V3,TestPoint_Pad_D1.5mm
-TP3,VM,Default,39.8370,21.8280,top,SMT,VM,TestPoint_Pad_D1.5mm
-TP4,+BATT,Default,45.4758,17.3322,top,SMT,BATT,TestPoint_Pad_D1.5mm
-TP5,GND,GND,40.9292,31.9880,top,SMT,GND,TestPoint_Pad_D1.5mm
+TP1,VBUS,Default,66.8918,13.4190,top,SMT,VBUS,TestPoint_Pad_D1.5mm
+TP2,+3.3V,Default,45.6918,27.6190,top,SMT,3V3,TestPoint_Pad_D1.5mm
+TP3,VM,Default,35.3918,27.6190,top,SMT,VM,TestPoint_Pad_D1.5mm
+TP4,+BATT,Default,42.4918,27.6190,top,SMT,BATT,TestPoint_Pad_D1.5mm
+TP5,GND,GND,38.9918,27.6190,top,SMT,GND,TestPoint_Pad_D1.5mm

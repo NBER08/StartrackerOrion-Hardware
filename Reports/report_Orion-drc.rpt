@@ -1,51 +1,55 @@
 ** Drc report for Orion.kicad_pcb **
-** Created on 2026-10-04T15:30:59 **
+** Created on 2026-10-12T19:43:40 **
 
-** Found 11 DRC violations **
+** Found 12 DRC violations **
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
+    ; error
+    @(113.5085 mm, 95.1592 mm): Pad 1 [+BATT] of U4 on L1 (Sig, PWR)
+    @(114.1585 mm, 95.1592 mm): Pad 2 [Net-(BT1-+)] of U4 on L1 (Sig, PWR)
 [silk_edge_clearance]: Silkscreen clipped by board edge
     ; warning (excluded)
-    @(64.2638 mm, 33.9054 mm): Rectangle on Edge.Cuts
-    @(128.577 mm, 105.0246 mm): Segment of J2 on F.Silkscreen
+    @(64.3556 mm, 34.2864 mm): Rectangle on Edge.Cuts
+    @(113.7156 mm, 28.0942 mm): Segment of U1 on F.Silkscreen
 [silk_edge_clearance]: Silkscreen clipped by board edge
     ; warning (excluded)
-    @(64.2638 mm, 33.9054 mm): Rectangle on Edge.Cuts
-    @(137.517 mm, 106.3046 mm): Segment of J2 on F.Silkscreen
+    @(64.3556 mm, 34.2864 mm): Rectangle on Edge.Cuts
+    @(132.1156 mm, 28.0942 mm): Segment of U1 on F.Silkscreen
 [silk_edge_clearance]: Silkscreen clipped by board edge
     ; warning (excluded)
-    @(64.2638 mm, 33.9054 mm): Rectangle on Edge.Cuts
-    @(113.6238 mm, 27.7132 mm): Segment of U1 on F.Silkscreen
+    @(64.3556 mm, 34.2864 mm): Rectangle on Edge.Cuts
+    @(128.6688 mm, 105.4056 mm): Segment of J2 on F.Silkscreen
 [silk_edge_clearance]: Silkscreen clipped by board edge
     ; warning (excluded)
-    @(64.2638 mm, 33.9054 mm): Rectangle on Edge.Cuts
-    @(132.0238 mm, 27.7132 mm): Segment of U1 on F.Silkscreen
-[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
+    @(64.3556 mm, 34.2864 mm): Rectangle on Edge.Cuts
+    @(137.6088 mm, 106.6856 mm): Segment of J2 on F.Silkscreen
+[clearance]: Clearance violation (rule 'Minimum Trace Width and Spacing (outer layer)' clearance 0.2000 mm; actual 0.1610 mm)
     ; error (excluded)
-    @(114.0667 mm, 94.7782 mm): Pad 2 [Net-(BT1-+)] of U4 on L1 (Sig, PWR)
-    @(114.7167 mm, 94.7782 mm): Pad 3 [GND] of U4 on L1 (Sig, PWR)
-[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
-    ; error (excluded)
-    @(114.0667 mm, 94.7782 mm): Pad 2 [Net-(BT1-+)] of U4 on L1 (Sig, PWR)
-    @(113.4167 mm, 94.7782 mm): Pad 1 [+BATT] of U4 on L1 (Sig, PWR)
-[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
-    ; error (excluded)
-    @(114.7167 mm, 94.7782 mm): Pad 3 [GND] of U4 on L1 (Sig, PWR)
-    @(115.3667 mm, 94.7782 mm): Pad 4 [+3.3V] of U4 on L1 (Sig, PWR)
-[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
-    ; error (excluded)
-    @(115.3667 mm, 92.5032 mm): Pad 5 [/Project Architecture/MCU/INA_SCL] of U4 on L1 (Sig, PWR)
-    @(114.7167 mm, 92.5032 mm): Pad 6 [/Project Architecture/MCU/INA_SDA] of U4 on L1 (Sig, PWR)
-[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
-    ; error (excluded)
-    @(114.7167 mm, 92.5032 mm): Pad 6 [/Project Architecture/MCU/INA_SDA] of U4 on L1 (Sig, PWR)
-    @(114.0667 mm, 92.5032 mm): Pad 7 [GND] of U4 on L1 (Sig, PWR)
+    @(114.8085 mm, 95.1592 mm): Pad 3 [GND] of U4 on L1 (Sig, PWR)
+    @(117.1603 mm, 95.1702 mm): Track [+3.3V] on L1 (Sig, PWR), length 1.6908 mm
 [hole_clearance]: Hole clearance violation (rule 'NPTH with copper around' clearance 0.2000 mm; actual 0.1751 mm)
     ; error (excluded)
-    @(129.847 mm, 98.9496 mm): Pad A1_B12 [GND] of J2 on L1 (Sig, PWR)
-    @(130.157 mm, 100.0246 mm): NPTH pad of J2
+    @(129.9388 mm, 99.3306 mm): Pad A1_B12 [GND] of J2 on L1 (Sig, PWR)
+    @(130.2488 mm, 100.4056 mm): NPTH pad of J2
 [hole_clearance]: Hole clearance violation (rule 'NPTH with copper around' clearance 0.2000 mm; actual 0.1751 mm)
     ; error (excluded)
-    @(136.247 mm, 98.9496 mm): Pad B1_A12 [GND] of J2 on L1 (Sig, PWR)
-    @(135.937 mm, 100.0246 mm): NPTH pad of J2
+    @(136.3388 mm, 99.3306 mm): Pad B1_A12 [GND] of J2 on L1 (Sig, PWR)
+    @(136.0288 mm, 100.4056 mm): NPTH pad of J2
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
+    ; error (excluded)
+    @(114.1585 mm, 95.1592 mm): Pad 2 [Net-(BT1-+)] of U4 on L1 (Sig, PWR)
+    @(114.8085 mm, 95.1592 mm): Pad 3 [GND] of U4 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
+    ; error (excluded)
+    @(114.8085 mm, 95.1592 mm): Pad 3 [GND] of U4 on L1 (Sig, PWR)
+    @(115.4585 mm, 95.1592 mm): Pad 4 [+3.3V] of U4 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
+    ; error (excluded)
+    @(115.4585 mm, 92.8842 mm): Pad 5 [/Project Architecture/MCU/INA_SCL] of U4 on L1 (Sig, PWR)
+    @(114.8085 mm, 92.8842 mm): Pad 6 [/Project Architecture/MCU/INA_SDA] of U4 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1500 mm)
+    ; error (excluded)
+    @(114.8085 mm, 92.8842 mm): Pad 6 [/Project Architecture/MCU/INA_SDA] of U4 on L1 (Sig, PWR)
+    @(114.1585 mm, 92.8842 mm): Pad 7 [GND] of U4 on L1 (Sig, PWR)
 
 ** Found 0 unconnected pads **
 

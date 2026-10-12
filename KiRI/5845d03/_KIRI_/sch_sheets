@@ -1,0 +1,7 @@
+Orion|Orion.kicad_sch||Orion|Orion
+Block Diagram|Block Diagram.kicad_sch||Block Diagram|Orion-Block Diagram
+Project Architecture|Project Architecture.kicad_sch||Project Architecture|Orion-Project Architecture
+conn|conn.kicad_sch||Connectors|Orion-Project Architecture-Connectors
+drivers|drivers.kicad_sch||Drivers|Orion-Project Architecture-Drivers
+mcu|mcu.kicad_sch||MCU|Orion-Project Architecture-MCU
+power|power.kicad_sch||Power|Orion-Project Architecture-Power

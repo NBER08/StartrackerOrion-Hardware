@@ -83,47 +83,51 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|113941700|94240700|245bc80b-1a81-4dfb-89dc-a71c5152efd8|930df5d5-d9d5-48a2-b4e5-dc2c27166231",
+          "clearance|114033500|94621700|25035633-9705-4aaa-8ac7-d2fbb62c0957|2aa1b603-44a0-48fc-8e1d-6a4707e6030f",
           ""
         ],
         [
-          "clearance|114191700|94240700|245bc80b-1a81-4dfb-89dc-a71c5152efd8|060385be-d28c-4f76-8129-b2c98c3ee883",
+          "clearance|114283500|94621700|25035633-9705-4aaa-8ac7-d2fbb62c0957|181dc561-9f97-444e-aad6-6dc9fd34e6fb",
           ""
         ],
         [
-          "clearance|114591700|91965700|cc2b5035-c277-4c29-88f7-84df4171e3cc|8c925a9a-24c7-496d-bd0c-2edd61583887",
+          "clearance|114683500|92346700|91fe8aaa-5e25-4e69-b7ce-0f6f0c5d7ff6|c9815e36-c2d4-413e-a25f-d512d467e59e",
           ""
         ],
         [
-          "clearance|114841700|94240700|060385be-d28c-4f76-8129-b2c98c3ee883|d6ae1adb-ac84-4cf9-bbae-349d79e90807",
+          "clearance|114933500|94621700|181dc561-9f97-444e-aad6-6dc9fd34e6fb|aa0d68e4-8594-4245-a820-e4ddb0554a6f",
           ""
         ],
         [
-          "clearance|115241700|91965700|2f900dbb-cb71-4503-8873-aeb78d441a85|cc2b5035-c277-4c29-88f7-84df4171e3cc",
+          "clearance|114933500|95170200|181dc561-9f97-444e-aad6-6dc9fd34e6fb|e1b0c289-1d39-4089-b204-37cbe71ff62e",
           ""
         ],
         [
-          "hole_clearance|130147000|99524600|8b5d76f1-6abd-4814-a40a-32b2a55f9365|190bbdbf-be7d-4b7f-8e1f-40c5d705c33b",
+          "clearance|115333500|92346700|b32e6fdf-193d-401f-bc01-670db51ac8f1|91fe8aaa-5e25-4e69-b7ce-0f6f0c5d7ff6",
           ""
         ],
         [
-          "hole_clearance|135947000|99524600|e47bf101-d9a5-4ebf-a4b1-4968d12a3859|9d83b7c0-29e1-46e6-bde3-b56b84879ddc",
+          "hole_clearance|130238800|99905600|95671af9-a988-4e76-8cc1-02b094b3eac5|00f76844-bac6-4ba0-b30d-9679faf7d0fc",
           ""
         ],
         [
-          "silk_edge_clearance|113623800|33905400|e2c3c44a-f0ca-4d78-bf60-aef0e2e3715c|bca5b5bb-6b55-43f0-a203-2b79d4b0be3c",
+          "hole_clearance|136038800|99905600|0c3b676a-e025-4e86-b617-b2fa9866cf2f|61f87cc3-1ca6-435b-b71a-664df6f0a278",
           ""
         ],
         [
-          "silk_edge_clearance|128577000|105838200|e2c3c44a-f0ca-4d78-bf60-aef0e2e3715c|977aed38-6a2f-47d5-b84c-74babe43934a",
+          "silk_edge_clearance|113715600|34286400|26d89c77-b95e-40c6-8112-d86699da025f|cff48206-22f4-4634-834f-44d8959c7fe0",
           ""
         ],
         [
-          "silk_edge_clearance|132023800|33905400|e2c3c44a-f0ca-4d78-bf60-aef0e2e3715c|19e40bd4-bb59-4f41-9bd3-ca16aeeb6f34",
+          "silk_edge_clearance|128668800|106219200|26d89c77-b95e-40c6-8112-d86699da025f|ecb84f08-84f9-4aa1-8b51-082ec7103e94",
           ""
         ],
         [
-          "silk_edge_clearance|137517000|105838200|e2c3c44a-f0ca-4d78-bf60-aef0e2e3715c|fc2397b8-c531-487c-bec6-e43d1b6961e2",
+          "silk_edge_clearance|132115600|34286400|26d89c77-b95e-40c6-8112-d86699da025f|512f54fc-a5b3-4994-9b24-7f15b47c36ed",
+          ""
+        ],
+        [
+          "silk_edge_clearance|137608800|106219200|26d89c77-b95e-40c6-8112-d86699da025f|c5292b54-b269-4c6b-a9a9-0c364cc72100",
           ""
         ]
       ],
@@ -1230,7 +1234,7 @@
     "COMPANY": "Karpat Space Program",
     "DESIGNER": "Bertalan Nagy",
     "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: ENIG\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR GREEN.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY KARPAT SPACE PROGRAM.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t86.055 \u00d7 71.933 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.300 mm\n\tMIN. HOLE (NPTH)\t\t0.650 mm\n\tANNULAR RING\t\t\t0.200 mm\n\tCOPPER TO HOLE\t\t0.250 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.100 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
-    "GIT_HASH_PCB": "800cac8",
+    "GIT_HASH_PCB": "5845d03",
     "GIT_HASH_SCH": "e462fed",
     "GIT_URL": "https://github.com/NBER08/StartrackerOrion-Hardware",
     "PROJECT_NAME": "Startracker Orion",
@@ -1239,8 +1243,8 @@
     "RELEASE_BODY_1.0.2": "",
     "RELEASE_BODY_1.1.0": "",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "04-Oct-2026",
-    "RELEASE_DATE_NUM": "2026-10-04",
+    "RELEASE_DATE": "12-Oct-2026",
+    "RELEASE_DATE_NUM": "2026-10-12",
     "RELEASE_TITLE_1.0.0": "",
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
@@ -1287,7 +1291,7 @@
     "SHEET_NAME_7": "Drivers",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "CHECKED"
+    "VARIANT": "RELEASED"
   },
   "tuning_profiles": {
     "meta": {
